@@ -8,7 +8,7 @@ const ArticleCard = ({className}) => {
       className={`rounded-xl overflow-hidden shadow-[0_3px_10px_rgb(0,0,0,0.2)] ${className}`}
     >
       <img
-        src={images.TokyoNight}
+        src={images.Post1Image}
         alt="Tokyo at Night"
         className="w-full object-cover object-center h-auto md:h-52 lg:h-48 xl:h-60"
       />
@@ -22,13 +22,13 @@ const ArticleCard = ({className}) => {
         <div className="flex justify-between flex-nowrap items-center mt-6">
           <div className="flex items-center gap-x-2 md:gap-x-2.5 ">
             <img
-              src={images.ShibaPFP}
+              src={images.Post1Pfp}
               alt="Shiba Profile"
               className="w-9 h-9 rounded-full md:w-10 md:h-10"
             />
             <div className="flex flex-col">
               <h4 className="font-bold italic text-dark-soft text-sm md:text-base">
-                Kai Tokugawa
+                Oda Nobunaga
               </h4>
               <div className="flex items-center gap-x-2">
                 <span className="bg-[#36B37E] w-fit bg-opacity-20 p-1.5 rounded-full">
