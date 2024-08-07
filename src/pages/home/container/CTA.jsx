@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <>
       <div className="px-5">
-        <section className="relative bg-dark-hard px-5 rounded-3xl p-8">
+        <section className="relative bg-dark-hard px-5 rounded-t-3xl p-8">
           <div className="container grid grid-cols-12 mx-auto py-10 md:pb-20 lg:place-items-center">
             <div className="col-span-12 lg:col-span-6">
               <h2 className="text-white font-roboto font-bold text-2xl md:text-4xl md:text-center md:leading-normal lg:text-left">
@@ -41,11 +41,10 @@ const CTA = () => {
                   />
                   <div className="p-5">
                     <h2 className="font-roboto font-bold text-xl text-dark-soft md:text-2xl lg:text-[28px]">
-                      Tokyo Trip
+                      Travel Tips, Tricks, & More!
                     </h2>
                     <p className="text-dark-light mt-3 text-sm md:text-lg">
-                      A week with the Tokyo Skytree, 7/11's, and fun shopping in
-                      Akihabara!
+                      Join the Travel Talk for a hub of collective wisdom and insight for every journey.
                     </p>
                   </div>
                 </div>
